@@ -16,7 +16,10 @@ public class Weapon : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(mermi, transform.position, Quaternion.identity);
+            Instantiate(test2, transform.position, Quaternion.identity);
+            Instantiate(test2, transform.position, Quaternion.identity);
+            Instantiate(test2, transform.position, Quaternion.identity);
+            Instantiate(test2, transform.position, Quaternion.identity);
         }
 
     }
